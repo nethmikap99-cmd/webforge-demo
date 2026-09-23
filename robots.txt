@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://nethmikap99-cmd.github.io/webforge-demo/sitemap.xml

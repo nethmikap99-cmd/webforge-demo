@@ -1,25 +1,24 @@
-# WebForge Demo
+# WebForge Demo — Corrected GitHub Pages Version
 
-A small static website for testing real-world publishing and Google Search indexing.
+This version is configured specifically for the GitHub Pages project site:
 
-## Before publishing
+https://nethmikap99-cmd.github.io/webforge-demo/
 
-Replace every `https://example.com/` URL in:
-- `index.html`
-- `about.html`
-- `article.html`
-- `privacy.html`
-- `robots.txt`
-- `sitemap.xml`
+## Corrections
 
-with your actual domain.
+- CSS and page links use relative paths, so they work under `/webforge-demo/`.
+- Canonical URLs use the real GitHub Pages address.
+- Open Graph URLs use the real GitHub Pages address.
+- `robots.txt` points to the live sitemap.
+- `sitemap.xml` contains the live page URLs.
+- No `example.com` placeholder remains.
 
 ## Files
 
 - `index.html` — home page
 - `about.html` — about page
 - `article.html` — crawlable demo article
-- `privacy.html` — simple privacy notice
+- `privacy.html` — privacy notice
 - `style.css` — responsive styling
 - `robots.txt` — crawler instructions
 - `sitemap.xml` — URL discovery
